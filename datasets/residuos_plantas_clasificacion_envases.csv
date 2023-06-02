@@ -1,0 +1,325 @@
+planta_año;planta_clasificacion_envases;planta_tipo_residuo_desc;planta_tipo_residuo_cantidad_Kg
+2012;Pinto;Metales;1938840
+2012;Pinto;Plásticos;7855460
+2012;Pinto;Vidrio;38860
+2012;Pinto;Papel y cartón;0
+2012;Pinto;Briks;1563380
+2012;Pinto;Otros materiales;0
+2012;Colmenar Viejo;Metales;2066720
+2012;Colmenar Viejo;Plásticos;6159260
+2012;Colmenar Viejo;Vidrio;0
+2012;Colmenar Viejo;Papel y cartón;467500
+2012;Colmenar Viejo;Briks;1417800
+2012;Colmenar Viejo;Otros materiales;0
+2012;Nueva Rendija;Metales;1202860
+2012;Nueva Rendija;Plásticos;3346600
+2012;Nueva Rendija;Vidrio;0
+2012;Nueva Rendija;Papel y cartón;148020
+2012;Nueva Rendija;Briks;773900
+2012;Nueva Rendija;Otros materiales;1157900
+2012;Fuenlabrada;Metales;1154360
+2012;Fuenlabrada;Plásticos;2664040
+2012;Fuenlabrada;Vidrio;24640
+2012;Fuenlabrada;Papel y cartón;85920
+2012;Fuenlabrada;Briks;492560
+2012;Fuenlabrada;Otros materiales;0
+2012;La Paloma;Metales;3211000
+2012;La Paloma;Plásticos;0
+2012;La Paloma;Vidrio;571000
+2012;La Paloma;Papel y cartón;2187000
+2012;La Paloma;Briks;1725000
+2012;La Paloma;Otros materiales;9997000
+2012;Las Dehesas;Metales;2994000
+2012;Las Dehesas;Plásticos;0
+2012;Las Dehesas;Vidrio;0
+2012;Las Dehesas;Papel y cartón;1979000
+2012;Las Dehesas;Briks;780000
+2012;Las Dehesas;Otros materiales;4507000
+2013;Pinto;Metales;1793160
+2013;Pinto;Plásticos;8427130
+2013;Pinto;Vidrio;47640
+2013;Pinto;Papel y cartón;0
+2013;Pinto;Briks;1943600
+2013;Pinto;Otros materiales;0
+2013;Colmenar Viejo;Metales;2295440
+2013;Colmenar Viejo;Plásticos;7496595
+2013;Colmenar Viejo;Vidrio;0
+2013;Colmenar Viejo;Papel y cartón;148160
+2013;Colmenar Viejo;Briks;1880280
+2013;Colmenar Viejo;Otros materiales;15700
+2013;Nueva Rendija;Metales;2065360
+2013;Nueva Rendija;Plásticos;0
+2013;Nueva Rendija;Vidrio;0
+2013;Nueva Rendija;Papel y cartón;145980
+2013;Nueva Rendija;Briks;0
+2013;Nueva Rendija;Otros materiales;4621320
+2013;Fuenlabrada;Metales;1122300
+2013;Fuenlabrada;Plásticos;2341600
+2013;Fuenlabrada;Vidrio;0
+2013;Fuenlabrada;Papel y cartón;72580
+2013;Fuenlabrada;Briks;530880
+2013;Fuenlabrada;Otros materiales;0
+2013;La Paloma;Metales;2984000
+2013;La Paloma;Plásticos;0
+2013;La Paloma;Vidrio;600000
+2013;La Paloma;Papel y cartón;1890000
+2013;La Paloma;Briks;1683000
+2013;La Paloma;Otros materiales;11731000
+2013;Las Dehesas;Metales;2423000
+2013;Las Dehesas;Plásticos;0
+2013;Las Dehesas;Vidrio;0
+2013;Las Dehesas;Papel y cartón;1517000
+2013;Las Dehesas;Briks;610000
+2013;Las Dehesas;Otros materiales;3763000
+2014;Pinto;Metales;1719360
+2014;Pinto;Plásticos;5205740
+2014;Pinto;Vidrio;44440
+2014;Pinto;Papel y cartón;44600
+2014;Pinto;Briks;1958240
+2014;Pinto;Otros materiales;1673220
+2014;Colmenar Viejo;Metales;2142760
+2014;Colmenar Viejo;Plásticos;6506580
+2014;Colmenar Viejo;Vidrio;0
+2014;Colmenar Viejo;Papel y cartón;21260
+2014;Colmenar Viejo;Briks;1777840
+2014;Colmenar Viejo;Otros materiales;1654240
+2014;Nueva Rendija;Metales;1180960
+2014;Nueva Rendija;Plásticos;3679800
+2014;Nueva Rendija;Vidrio;0
+2014;Nueva Rendija;Papel y cartón;166400
+2014;Nueva Rendija;Briks;812140
+2014;Nueva Rendija;Otros materiales;1101980
+2014;Fuenlabrada;Metales;1009410
+2014;Fuenlabrada;Plásticos;2162760
+2014;Fuenlabrada;Vidrio;25120
+2014;Fuenlabrada;Papel y cartón;0
+2014;Fuenlabrada;Briks;599340
+2014;Fuenlabrada;Otros materiales;1162700
+2014;La Paloma;Metales;3164000
+2014;La Paloma;Plásticos;0
+2014;La Paloma;Vidrio;517000
+2014;La Paloma;Papel y cartón;1633000
+2014;La Paloma;Briks;1556000
+2014;La Paloma;Otros materiales;9496000
+2014;Las Dehesas;Metales;2107000
+2014;Las Dehesas;Plásticos;0
+2014;Las Dehesas;Vidrio;0
+2014;Las Dehesas;Papel y cartón;1300000
+2014;Las Dehesas;Briks;546000
+2014;Las Dehesas;Otros materiales;3360000
+2015;Pinto;Metales;1886340
+2015;Pinto;Plásticos;7424800
+2015;Pinto;Vidrio;58660
+2015;Pinto;Papel y cartón;198840
+2015;Pinto;Briks;2059840
+2015;Pinto;Otros materiales;95000
+2015;Colmenar Viejo;Metales;2016900
+2015;Colmenar Viejo;Plásticos;6651740
+2015;Colmenar Viejo;Vidrio;0
+2015;Colmenar Viejo;Papel y cartón;54580
+2015;Colmenar Viejo;Briks;1625700
+2015;Colmenar Viejo;Otros materiales;0
+2015;Nueva Rendija;Metales;1028940
+2015;Nueva Rendija;Plásticos;4426240
+2015;Nueva Rendija;Vidrio;0
+2015;Nueva Rendija;Papel y cartón;131480
+2015;Nueva Rendija;Briks;697420
+2015;Nueva Rendija;Otros materiales;183220
+2015;Fuenlabrada;Metales;1051860
+2015;Fuenlabrada;Plásticos;3513080
+2015;Fuenlabrada;Vidrio;47520
+2015;Fuenlabrada;Papel y cartón;0
+2015;Fuenlabrada;Briks;776940
+2015;Fuenlabrada;Otros materiales;96900
+2015;La Paloma;Metales;2342000
+2015;La Paloma;Plásticos;8537000
+2015;La Paloma;Vidrio;428000
+2015;La Paloma;Papel y cartón;1645000
+2015;La Paloma;Briks;1408000
+2015;La Paloma;Otros materiales;227000
+2015;Las Dehesas;Metales;2339000
+2015;Las Dehesas;Plásticos;3799000
+2015;Las Dehesas;Vidrio;0
+2015;Las Dehesas;Papel y cartón;1252000
+2015;Las Dehesas;Briks;724000
+2015;Las Dehesas;Otros materiales;130000
+2016;Pinto;Metales;2387100
+2016;Pinto;Plásticos;10260900
+2016;Pinto;Vidrio;36380
+2016;Pinto;Papel y cartón;155660
+2016;Pinto;Briks;2599360
+2016;Pinto;Otros materiales;756800
+2016;Colmenar Viejo;Metales;1285980
+2016;Colmenar Viejo;Plásticos;5120840
+2016;Colmenar Viejo;Vidrio;0
+2016;Colmenar Viejo;Papel y cartón;63400
+2016;Colmenar Viejo;Briks;1169560
+2016;Colmenar Viejo;Otros materiales;0
+2016;Nueva Rendija;Metales;779600
+2016;Nueva Rendija;Plásticos;5183980
+2016;Nueva Rendija;Vidrio;0
+2016;Nueva Rendija;Papel y cartón;138600
+2016;Nueva Rendija;Briks;722540
+2016;Nueva Rendija;Otros materiales;267980
+2016;Fuenlabrada;Metales;984020
+2016;Fuenlabrada;Plásticos;4380940
+2016;Fuenlabrada;Vidrio;44180
+2016;Fuenlabrada;Papel y cartón;32500
+2016;Fuenlabrada;Briks;735800
+2016;Fuenlabrada;Otros materiales;10740
+2016;La Paloma;Metales;2135000
+2016;La Paloma;Plásticos;998700
+2016;La Paloma;Vidrio;461000
+2016;La Paloma;Papel y cartón;1579000
+2016;La Paloma;Briks;1581000
+2016;La Paloma;Otros materiales;263000
+2016;Las Dehesas;Metales;2155000
+2016;Las Dehesas;Plásticos;4147000
+2016;Las Dehesas;Vidrio;0
+2016;Las Dehesas;Papel y cartón;1171000
+2016;Las Dehesas;Briks;723000
+2016;Las Dehesas;Otros materiales;158000
+2017;Pinto;Metales;2369180
+2017;Pinto;Plásticos;14625940
+2017;Pinto;Vidrio;22200
+2017;Pinto;Papel y cartón;47760
+2017;Pinto;Briks;357920
+2017;Pinto;Otros materiales;593000
+2017;Colmenar Viejo;Metales;1127540
+2017;Colmenar Viejo;Plásticos;5240040
+2017;Colmenar Viejo;Vidrio;0
+2017;Colmenar Viejo;Papel y cartón;0
+2017;Colmenar Viejo;Briks;1035600
+2017;Colmenar Viejo;Otros materiales;0
+2017;Nueva Rendija;Metales;790780
+2017;Nueva Rendija;Plásticos;6016900
+2017;Nueva Rendija;Vidrio;0
+2017;Nueva Rendija;Papel y cartón;83400
+2017;Nueva Rendija;Briks;805600
+2017;Nueva Rendija;Otros materiales;338860
+2017;Fuenlabrada;Metales;960640
+2017;Fuenlabrada;Plásticos;4936220
+2017;Fuenlabrada;Vidrio;0
+2017;Fuenlabrada;Papel y cartón;0
+2017;Fuenlabrada;Briks;866140
+2017;Fuenlabrada;Otros materiales;266780
+2017;La Paloma;Metales;2099000
+2017;La Paloma;Plásticos;10555000
+2017;La Paloma;Vidrio;551000
+2017;La Paloma;Papel y cartón;1513000
+2017;La Paloma;Briks;1498000
+2017;La Paloma;Otros materiales;302000
+2017;Las Dehesas;Metales;2219000
+2017;Las Dehesas;Plásticos;5850000
+2017;Las Dehesas;Vidrio;0
+2017;Las Dehesas;Papel y cartón;1401000
+2017;Las Dehesas;Briks;819000
+2017;Las Dehesas;Otros materiales;225000
+2018;Pinto;Metales;2164360
+2018;Pinto;Plásticos;11518100
+2018;Pinto;Vidrio;0
+2018;Pinto;Papel y cartón;84400
+2018;Pinto;Briks;1981440
+2018;Pinto;Otros materiales;109420
+2018;Colmenar Viejo;Metales;1002160
+2018;Colmenar Viejo;Plásticos;5255440
+2018;Colmenar Viejo;Vidrio;0
+2018;Colmenar Viejo;Papel y cartón;40320
+2018;Colmenar Viejo;Briks;997780
+2018;Colmenar Viejo;Otros materiales;259610
+2018;Nueva Rendija;Metales;767560
+2018;Nueva Rendija;Plásticos;6622360
+2018;Nueva Rendija;Vidrio;0
+2018;Nueva Rendija;Papel y cartón;83400
+2018;Nueva Rendija;Briks;830980
+2018;Nueva Rendija;Otros materiales;247960
+2018;Fuenlabrada;Metales;700140
+2018;Fuenlabrada;Plásticos;6094400
+2018;Fuenlabrada;Vidrio;0
+2018;Fuenlabrada;Papel y cartón;0
+2018;Fuenlabrada;Briks;1044080
+2018;Fuenlabrada;Otros materiales;260540
+2018;La Paloma;Metales;1906000
+2018;La Paloma;Plásticos;11622000
+2018;La Paloma;Vidrio;453000
+2018;La Paloma;Papel y cartón;1191000
+2018;La Paloma;Briks;1286000
+2018;La Paloma;Otros materiales;391000
+2018;Las Dehesas;Metales;2967000
+2018;Las Dehesas;Plásticos;13421000
+2018;Las Dehesas;Vidrio;0
+2018;Las Dehesas;Papel y cartón;1667000
+2018;Las Dehesas;Briks;2326000
+2018;Las Dehesas;Otros materiales;564000
+2019;Pinto;Metales;2398100
+2019;Pinto;Plásticos;14524620
+2019;Pinto;Vidrio;0
+2019;Pinto;Papel y cartón;94580
+2019;Pinto;Briks;1694340
+2019;Pinto;Otros materiales;0
+2019;Colmenar Viejo;Metales;1238100
+2019;Colmenar Viejo;Plásticos;6631340
+2019;Colmenar Viejo;Vidrio;0
+2019;Colmenar Viejo;Papel y cartón;38380
+2019;Colmenar Viejo;Briks;1348540
+2019;Colmenar Viejo;Otros materiales;60000
+2019;Nueva Rendija;Metales;1103060
+2019;Nueva Rendija;Plásticos;6327340
+2019;Nueva Rendija;Vidrio;0
+2019;Nueva Rendija;Papel y cartón;138720
+2019;Nueva Rendija;Briks;765080
+2019;Nueva Rendija;Otros materiales;760540
+2019;Fuenlabrada;Metales;1113080
+2019;Fuenlabrada;Plásticos;5946700
+2019;Fuenlabrada;Vidrio;24780
+2019;Fuenlabrada;Papel y cartón;0
+2019;Fuenlabrada;Briks;1141600
+2019;Fuenlabrada;Otros materiales;22220
+2019;La Paloma;Metales;1958000
+2019;La Paloma;Plásticos;11242000
+2019;La Paloma;Vidrio;368000
+2019;La Paloma;Papel y cartón;912000
+2019;La Paloma;Briks;272000
+2019;La Paloma;Otros materiales;397000
+2019;Las Dehesas;Metales;2943000
+2019;Las Dehesas;Plásticos;14791000
+2019;Las Dehesas;Vidrio;0
+2019;Las Dehesas;Papel y cartón;1498000
+2019;Las Dehesas;Briks;2558000
+2019;Las Dehesas;Otros materiales;731000
+2020;Pinto;Metales;2791980
+2020;Pinto;Plásticos;15607120
+2020;Pinto;Vidrio;0
+2020;Pinto;Papel y cartón;0
+2020;Pinto;Briks;1846360
+2020;Pinto;Otros materiales;0
+2020;Colmenar Viejo;Metales;1649620
+2020;Colmenar Viejo;Plásticos;8142800
+2020;Colmenar Viejo;Vidrio;0
+2020;Colmenar Viejo;Papel y cartón;91260
+2020;Colmenar Viejo;Briks;1595740
+2020;Colmenar Viejo;Otros materiales;76080
+2020;Nueva Rendija;Metales;1053800
+2020;Nueva Rendija;Plásticos;7092430
+2020;Nueva Rendija;Vidrio;0
+2020;Nueva Rendija;Papel y cartón;138730
+2020;Nueva Rendija;Briks;761530
+2020;Nueva Rendija;Otros materiales;0
+2020;Fuenlabrada;Metales;1336120
+2020;Fuenlabrada;Plásticos;6620300
+2020;Fuenlabrada;Vidrio;22960
+2020;Fuenlabrada;Papel y cartón;0
+2020;Fuenlabrada;Briks;1212520
+2020;Fuenlabrada;Otros materiales;212560
+2020;La Paloma;Metales;1746640
+2020;La Paloma;Plásticos;10551070
+2020;La Paloma;Vidrio;247870
+2020;La Paloma;Papel y cartón;1001680
+2020;La Paloma;Briks;599620
+2020;La Paloma;Otros materiales;421460
+2020;Las Dehesas;Metales;3371500
+2020;Las Dehesas;Plásticos;17034000
+2020;Las Dehesas;Vidrio;0
+2020;Las Dehesas;Papel y cartón;926720
+2020;Las Dehesas;Briks;2818000
+2020;Las Dehesas;Otros materiales;1052120
