@@ -1,1 +1,13 @@
-
+keras==2.12.0
+matplotlib==3.7.1
+numpy==1.23.5
+pandas==2.0.2
+Pillow==9.5.0
+Pillow==9.5.0
+pymysql==1.0.3
+python-dotenv==1.0.0
+scikit_learn==1.2.2
+SQLAlchemy==2.0.15
+streamlit==1.23.1
+tensorflow==2.12.0
+tensorflow_intel==2.12.0
