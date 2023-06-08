@@ -27,9 +27,12 @@ from tensorflow.keras.applications.efficientnet import preprocess_input, Efficie
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.preprocessing import image
 from datetime import datetime
+from sklearn.metrics import confusion_matrix, classification_report
 from tensorflow.keras.applications import EfficientNetB0
 from tensorflow.keras.layers import GlobalAveragePooling2D, Dense
 from tensorflow.keras.models import Model
+import matplotlib.pyplot as plt
+
 
 
 # Preprocessing
@@ -166,5 +169,29 @@ def preprocess_and_predict(image_path, model):
     confidence = np.max(predictions) * 100
 
     return predicted_class, confidence, predictions
+
+def evaluate_model(model_path, validation_generator):
+    # Load the trained model
+    model = tf.keras.models.load_model(model_path)
+    model.summary()
+
+    # Calculate predictions on validation data
+    predictions = model.predict(validation_generator)
+
+    # Get the confusion matrix and classification report
+    y_true = validation_generator.classes
+    y_pred = np.argmax(predictions, axis=1)
+    confusion_mat = confusion_matrix(y_true, y_pred)
+    classification_rep = classification_report(y_true, y_pred)
+
+    # Print the confusion matrix and classification report
+    print("Confusion Matrix:")
+    print(confusion_mat)
+    print()
+    print("Classification Report:")
+    print(classification_rep)
+
+
+ 
 
 

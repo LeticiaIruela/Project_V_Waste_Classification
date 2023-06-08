@@ -17,61 +17,34 @@ from tensorflow.keras.models import Model
 import src.models as md
 from PIL import Image
 
-st.set_page_config(page_title="Garbage Classification", page_icon=":sunglasses")
-st.title("Garbage Classification")
-st.header("Model")
-st.markdown("fdfdfd")
 
-model = tf.keras.models.load_model('models/model_0306_efficientnetB0_retrain2.h5')
+st.set_page_config(
+    page_title="Garbage Classification",
+    page_icon=":seedling:",
+    layout="wide"
+)
 
-st.title("Waste classificator")
-st.write("Upload your photo and obtain your waste type!")
-
-# Cargar imagen del usuario
-uploaded_file = st.file_uploader("Cargar imagen", type=["jpg", "jpeg", "png"])
-if uploaded_file is not None:
-    # Guardar la imagen en una ubicación temporal
-    image = Image.open(uploaded_file).convert('RGB')
-    image_path = "temp_image.jpg"
-    image.save(image_path)
-
-    # Preprocesar y hacer la predicción de la imagen
-    predicted_class, confidence, predictions = md.preprocess_and_predict(image_path, model)
-
-    # Cargar el DataFrame con las etiquetas de clase
-    df_labels = pd.read_csv("datasets/df_f_new.csv")  # Reemplaza "ruta_del_dataframe.csv" con la ruta correcta
-
-    garbage_types_labels = {
-    0: 'battery',
-    1: 'biological',
-    2: 'brown-glass',
-    3: 'cardboard',
-    4: 'green-glass',
-    5: 'metal',
-    6: 'paper',
-    7: 'plastic',
-    8: 'trash',
-    9: 'white-glass'
+# Set background color
+page_bg = """
+<style>
+body {
+    background-color: #e6f7e9;
 }
+</style>
+"""
+st.markdown(page_bg, unsafe_allow_html=True)
 
-    # Obtener la etiqueta de clase predicha
-    predicted_label = df_labels.loc[df_labels["Category"] == predicted_class, "Category"].iloc[0]
+# Main title and objective description
+st.title("Welcome to the Waste Classifier")
+st.markdown("""
+The Waste Classifier is a powerful tool that utilizes advanced machine learning techniques to identify and classify different types of waste based on user-uploaded images.
+""")
 
-    garbage_type = garbage_types_labels[predicted_class]
-
-
-    # Mostrar la imagen cargada
-    st.image(image, caption="Imagen cargada", use_column_width=True)
-
-    # Mostrar la clase predicha y la probabilidad
-    st.write("Prediction:", predicted_label)
-    st.write("Garbagge waste type:", garbage_type)
-    st.write("Confidence (%):", confidence)
-    st.write("Prediccions:", predictions)
-
-
-
-
+# Add an image
+image_path = "fig/SAFE.png"  # Replace with the actual path to your image
+image = Image.open(image_path)
+image = image.resize((500, 500))  # Reduce the size of the image
+st.image(image, use_column_width=True)
 
 
 
