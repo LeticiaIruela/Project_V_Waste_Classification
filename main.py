@@ -40,11 +40,6 @@ st.markdown("""
 The Waste Classifier is a powerful tool that utilizes advanced machine learning techniques to identify and classify different types of waste based on user-uploaded images.
 """)
 
-# Add an image
-image_path = "fig/SAFE.png"  # Replace with the actual path to your image
-image = Image.open(image_path)
-image = image.resize((500, 500))  # Reduce the size of the image
-st.image(image, use_column_width=True)
 
 
 

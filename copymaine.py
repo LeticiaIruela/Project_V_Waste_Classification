@@ -17,34 +17,10 @@ from tensorflow.keras.models import Model
 import src.models as md
 from PIL import Image
 
-st.set_page_config(page_title="Garbage Classification", page_icon=":seedling:")
-
-st.header(":recycle: Waste classificator Model")
-st.markdown("""
-## Waste Classifier
-
-Welcome to the Waste Classifier! This powerful tool uses advanced machine learning techniques to identify and classify different types of waste based on uploaded images.
-
-### How it Works
-
-1. Upload an image of the waste you want to classify. Accepted formats are JPG, JPEG, and PNG.
-
-2. The classifier will analyze the image using a pre-trained model and provide predictions on the type of waste present.
-
-3. You will receive the predicted waste category along with a confidence score, indicating the model's certainty in its prediction.
-
-4. Additionally, you'll find recommendations on how to dispose of the waste properly, ensuring a more sustainable approach to waste management.
-
-### Why is Waste Classification Important?
-
-Proper waste classification plays a crucial role in effective waste management. By accurately identifying different types of waste, we can implement appropriate recycling, composting, and disposal methods, minimizing environmental impact and promoting sustainability.
-
-### Join us in the Waste Classification Journey!
-
-Start contributing to a cleaner environment today by using the Waste Classifier. Together, we can make a difference and build a greener future.
-
-Upload your image now and let the Waste Classifier do the rest!
-""")
+st.set_page_config(page_title="Garbage Classification", page_icon=":sunglasses")
+st.title("Garbage Classification")
+st.header("Model")
+st.markdown("fdfdfd")
 
 model = tf.keras.models.load_model('models/model_0306_efficientnetB0_retrain2.h5')
 
@@ -63,7 +39,7 @@ if uploaded_file is not None:
     predicted_class, confidence, predictions = md.preprocess_and_predict(image_path, model)
 
     # Cargar el DataFrame con las etiquetas de clase
-    df_labels = pd.read_csv("datasets/df_f_new.csv")  
+    df_labels = pd.read_csv("datasets/df_f_new.csv")  # Reemplaza "ruta_del_dataframe.csv" con la ruta correcta
 
     garbage_types_labels = {
     0: 'battery',
@@ -103,7 +79,6 @@ if uploaded_file is not None:
     st.write("Garbagge waste type:", garbage_type)
     st.write("Confidence (%):", confidence)
     st.write("Prediccions:", predictions)
-
 # Variables globales
 image = None
 
@@ -135,21 +110,15 @@ if image is None or btn_reload:
         predicted_label = df_labels.loc[df_labels["Category"] == predicted_class, "Category"].iloc[0]
 
         garbage_type = garbage_types_labels[predicted_class]
+        garbage_container = garbage_containers[predicted_class]
 
         # Mostrar la imagen cargada
         st.image(image, caption="Imagen cargada", use_column_width=True)
 
         # Mostrar la clase predicha y la probabilidad
-        st.write("Prediction:", predicted_label)
+        st.write("Predicción:", predicted_label)
         st.write("Garbage waste type:", garbage_type)
-        st.write("Confidence (%):", confidence)
-        st.write("Prediccions:", predictions)
-
-        # Mostrar el contenedor adecuado
-        st.write("Container:")
-        for prediction, container in garbage_containers.items():
-            if prediction == predicted_class:
-                st.write(container)
-
+        st.write("Confianza (%):", confidence)
+        st.write("Predicciones:", predictions)
 
 
