@@ -25,7 +25,7 @@ The SuperStore dataset used for this project should be accessible via the Kaggle
 #### European Recycling Trends
 
 
-![seg](fig/europe.png)
+![seg](fig/europe.PNG)
 
 The amount of waste generated in Europe has been increasing year after year.
 However, the recycling rate per capita and recycling rate by materials have remained relatively constant over the years.
@@ -33,7 +33,7 @@ This suggests that despite the implementation of measures and awareness campaign
 
 #### Spanish Recycling Trends
 
-![seg](fig/spain.png)
+![seg](fig/spain.PNG)
 
 In Spain, there has been exponential growth in plastic recycling, while cardboard recycling has remained stable since 2018.
 This indicates that the awareness campaigns and measures implemented in Spain have been successful in promoting plastic recycling.
@@ -49,7 +49,7 @@ Different materials show a balanced increase in their recycling rates, suggestin
 
 The analysis of recycling trends reveals the complexities associated with changing recycling behaviors. While some regions experience positive impacts from awareness campaigns and measures, others struggle to achieve significant improvements. The findings emphasize the ongoing need for innovative strategies and continued efforts to promote sustainable recycling practices in order to mitigate the environmental impact of waste.
 
-![seg](fig/madrid.png)
+![seg](fig/madrid.PNG)
 
 More ingormation in: https://public.tableau.com/app/profile/leticia.martinez.iruela/viz/FinalProject_v_FINAL/Story1?publish=yes
 
